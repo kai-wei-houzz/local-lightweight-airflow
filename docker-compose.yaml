@@ -45,7 +45,7 @@ version: '3'
 x-airflow-common:
   &airflow-common
   # image: ${AIRFLOW_IMAGE_NAME:-apache/airflow:2.1.2}
-  image: airflow:dev
+  image: airflow:dbt
   environment:
     &airflow-common-env
     AIRFLOW__CORE__EXECUTOR: LocalExecutor
@@ -58,8 +58,8 @@ x-airflow-common:
     AIRFLOW__API__AUTH_BACKEND: 'airflow.api.auth.backend.basic_auth'
     _PIP_ADDITIONAL_REQUIREMENTS: ${_PIP_ADDITIONAL_REQUIREMENTS:-}
   volumes:
-    # - ./dags:/opt/airflow/dags
-    - /Users/kwliao/Development/c2dw/airflow/dags:/opt/airflow/dags
+    - ./dags:/opt/airflow/dags
+    # - /Users/kwliao/Development/c2dw/airflow/dags:/opt/airflow/dags
     - ./logs:/opt/airflow/logs
     - ./plugins:/opt/airflow/plugins
     - ./tests:/opt/airflow/tests

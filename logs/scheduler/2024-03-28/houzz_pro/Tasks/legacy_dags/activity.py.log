@@ -1,0 +1,131 @@
+[2024-03-28T02:46:29.384+0000] {processor.py:153} INFO - Started process (PID=384) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:46:29.389+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:46:29.392+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:29.392+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:46:30.786+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:46:31.163+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.163+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:updte_ivy_activity
+[2024-03-28T02:46:31.185+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.184+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:updte_ivy_activity
+[2024-03-28T02:46:31.207+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.206+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:updte_ivy_activity
+[2024-03-28T02:46:31.211+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.208+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:46:31.239+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py:3223 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2024-03-28T02:46:31.245+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.243+0000] {dag.py:2726} INFO - Creating ORM DAG for updte_ivy_activity
+[2024-03-28T02:46:31.279+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.279+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:46:31.329+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 1.994 seconds
+[2024-03-28T02:47:32.518+0000] {processor.py:153} INFO - Started process (PID=625) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:47:32.524+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:47:32.569+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:32.545+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:47:35.792+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:47:35.924+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:35.922+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:47:36.097+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:36.096+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:47:36.217+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 3.715 seconds
+[2024-03-28T02:48:23.210+0000] {processor.py:153} INFO - Started process (PID=857) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:48:23.214+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:48:23.216+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:23.216+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:48:26.466+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:48:26.542+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:26.541+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:26.623+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:26.623+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:48:26.717+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 3.522 seconds
+[2024-03-28T02:48:57.244+0000] {processor.py:153} INFO - Started process (PID=1067) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:48:57.246+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:48:57.248+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:57.248+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:48:58.081+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:48:58.110+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:58.110+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:58.147+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:58.147+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:48:58.177+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.937 seconds
+[2024-03-28T02:49:29.718+0000] {processor.py:153} INFO - Started process (PID=1278) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:49:29.720+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:49:29.723+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:29.722+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:49:30.780+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:49:30.839+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:30.837+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:30.901+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:30.900+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:49:30.954+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 1.247 seconds
+[2024-03-28T02:50:01.715+0000] {processor.py:153} INFO - Started process (PID=1490) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:50:01.717+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:50:01.720+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:01.719+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:50:02.866+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:50:02.967+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:02.966+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:03.024+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:03.023+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:50:03.069+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 1.364 seconds
+[2024-03-28T02:50:39.844+0000] {processor.py:153} INFO - Started process (PID=1701) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:50:39.847+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:50:39.851+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:39.851+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:50:43.164+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:50:43.712+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:43.680+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:44.095+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:44.093+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:50:44.248+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 4.410 seconds
+[2024-03-28T02:51:14.833+0000] {processor.py:153} INFO - Started process (PID=1914) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:51:14.835+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:51:14.837+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:14.837+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:51:15.918+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:51:15.966+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:15.965+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:16.016+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:16.015+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:51:16.050+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 1.222 seconds
+[2024-03-28T02:51:46.251+0000] {processor.py:153} INFO - Started process (PID=2124) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:51:46.254+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:51:46.258+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:46.258+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:51:47.428+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:51:47.536+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:47.536+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:47.599+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:47.598+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:51:47.640+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 1.397 seconds
+[2024-03-28T02:52:20.393+0000] {processor.py:153} INFO - Started process (PID=2323) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:52:20.397+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:52:20.399+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:20.399+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:52:21.258+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:52:21.295+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:21.294+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:21.334+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:21.334+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:52:21.372+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.985 seconds
+[2024-03-28T02:52:52.489+0000] {processor.py:153} INFO - Started process (PID=2538) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:52:52.491+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:52:52.492+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:52.492+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:52:53.534+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:52:53.571+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:53.571+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:53.613+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:53.613+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:52:53.641+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 1.158 seconds
+[2024-03-28T02:53:23.710+0000] {processor.py:153} INFO - Started process (PID=2741) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:53:23.713+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:53:23.715+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:23.715+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:53:24.472+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:53:24.506+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:24.505+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:24.550+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:24.550+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:53:24.582+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.878 seconds
+[2024-03-28T02:53:55.472+0000] {processor.py:153} INFO - Started process (PID=2952) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:53:55.473+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:53:55.474+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:55.474+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:53:56.223+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:53:56.265+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:56.262+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:56.303+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:56.303+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:53:56.337+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.871 seconds
+[2024-03-28T02:54:26.482+0000] {processor.py:153} INFO - Started process (PID=3170) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:54:26.484+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:54:26.488+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:26.488+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:54:27.275+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:54:27.318+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:27.317+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:27.367+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:27.366+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:54:27.403+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.929 seconds
+[2024-03-28T02:54:58.411+0000] {processor.py:153} INFO - Started process (PID=3393) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:54:58.416+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:54:58.418+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:58.418+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:54:59.177+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:54:59.214+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:59.212+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:59.253+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:59.253+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:54:59.286+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.881 seconds
+[2024-03-28T02:55:30.010+0000] {processor.py:153} INFO - Started process (PID=3602) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:55:30.012+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:55:30.014+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:30.014+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:55:30.685+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:55:30.719+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:30.719+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:30.755+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:30.755+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:55:30.781+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.776 seconds
+[2024-03-28T02:56:02.217+0000] {processor.py:153} INFO - Started process (PID=3820) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:56:02.219+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:56:02.220+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:02.220+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:56:02.890+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:56:02.922+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:02.921+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:02.954+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:02.954+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:56:02.978+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.768 seconds
+[2024-03-28T02:56:33.264+0000] {processor.py:153} INFO - Started process (PID=4031) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:56:33.266+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py for tasks to queue
+[2024-03-28T02:56:33.268+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:33.268+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:56:34.019+0000] {processor.py:753} INFO - DAG(s) dict_keys(['updte_ivy_activity']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py
+[2024-03-28T02:56:34.052+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:34.051+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:34.085+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:34.084+0000] {dag.py:3452} INFO - Setting next_dagrun for updte_ivy_activity to 2019-12-18T00:00:00+00:00, run_after=2019-12-19T00:00:00+00:00
+[2024-03-28T02:56:34.110+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activity.py took 0.853 seconds

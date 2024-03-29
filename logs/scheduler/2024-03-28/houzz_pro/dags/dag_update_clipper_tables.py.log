@@ -1,0 +1,138 @@
+[2024-03-28T02:45:38.761+0000] {processor.py:153} INFO - Started process (PID=247) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:45:38.763+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:45:38.766+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:38.766+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:45:44.738+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:45:45.080+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:45.079+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:update_ivy_leg_schema
+[2024-03-28T02:45:45.107+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:45.106+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:update_ivy_leg_schema
+[2024-03-28T02:45:45.131+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:45.130+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:update_ivy_leg_schema
+[2024-03-28T02:45:45.136+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:45.132+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:45:45.180+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py:3223 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2024-03-28T02:45:45.186+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:45.182+0000] {dag.py:2726} INFO - Creating ORM DAG for update_ivy_leg_schema
+[2024-03-28T02:45:45.227+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:45.226+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:45:45.311+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 6.564 seconds
+[2024-03-28T02:46:53.132+0000] {processor.py:153} INFO - Started process (PID=476) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:46:53.137+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:46:53.139+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:53.139+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:46:55.450+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:46:55.521+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:55.520+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:46:55.619+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:55.619+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:46:55.720+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 2.604 seconds
+[2024-03-28T02:47:44.167+0000] {processor.py:153} INFO - Started process (PID=704) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:47:44.170+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:47:44.173+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:44.172+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:47:46.745+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:47:46.883+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:46.877+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:47:47.008+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:47.008+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:47:47.089+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 2.934 seconds
+[2024-03-28T02:48:34.060+0000] {processor.py:153} INFO - Started process (PID=926) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:48:34.061+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:48:34.065+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:34.065+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:48:35.961+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:48:36.128+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:36.127+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:36.225+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:36.225+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:48:36.277+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 2.222 seconds
+[2024-03-28T02:49:07.116+0000] {processor.py:153} INFO - Started process (PID=1138) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:49:07.117+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:49:07.118+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:07.118+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:49:07.876+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:49:07.924+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:07.923+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:07.977+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:07.977+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:49:08.035+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.925 seconds
+[2024-03-28T02:49:38.113+0000] {processor.py:153} INFO - Started process (PID=1331) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:49:38.145+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:49:38.148+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:38.147+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:49:39.281+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:49:39.353+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:39.352+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:39.439+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:39.439+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:49:39.496+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 1.392 seconds
+[2024-03-28T02:50:09.765+0000] {processor.py:153} INFO - Started process (PID=1542) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:50:09.767+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:50:09.768+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:09.768+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:50:10.985+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:50:11.204+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:11.199+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:11.308+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:11.307+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:50:11.378+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 1.622 seconds
+[2024-03-28T02:50:46.997+0000] {processor.py:153} INFO - Started process (PID=1735) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:50:47.001+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:50:47.004+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:47.003+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:50:48.340+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:50:48.395+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:48.394+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:48.450+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:48.448+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:50:48.488+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 1.499 seconds
+[2024-03-28T02:51:19.202+0000] {processor.py:153} INFO - Started process (PID=1948) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:51:19.203+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:51:19.205+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:19.205+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:51:20.295+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:51:20.359+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:20.358+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:20.420+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:20.420+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:51:20.455+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 1.262 seconds
+[2024-03-28T02:51:50.706+0000] {processor.py:153} INFO - Started process (PID=2157) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:51:50.709+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:51:50.713+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:50.711+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:51:51.929+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:51:51.988+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:51.987+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:52.048+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:52.048+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:51:52.096+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 1.397 seconds
+[2024-03-28T02:52:22.805+0000] {processor.py:153} INFO - Started process (PID=2372) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:52:22.807+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:52:22.808+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:22.808+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:52:23.649+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:52:23.690+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:23.690+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:23.738+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:23.737+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:52:23.783+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.984 seconds
+[2024-03-28T02:52:56.154+0000] {processor.py:153} INFO - Started process (PID=2584) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:52:56.156+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:52:56.157+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:56.157+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:52:56.974+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:52:57.009+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:57.008+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:57.056+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:57.056+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:52:57.092+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.944 seconds
+[2024-03-28T02:53:28.215+0000] {processor.py:153} INFO - Started process (PID=2795) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:53:28.217+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:53:28.219+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:28.218+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:53:28.970+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:53:29.013+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:29.011+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:29.058+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:29.058+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:53:29.091+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.884 seconds
+[2024-03-28T02:53:59.881+0000] {processor.py:153} INFO - Started process (PID=3015) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:53:59.883+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:53:59.886+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:59.885+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:54:01.219+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:54:01.270+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:01.269+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:01.306+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:01.306+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:54:01.340+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 1.467 seconds
+[2024-03-28T02:54:31.827+0000] {processor.py:153} INFO - Started process (PID=3221) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:54:31.828+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:54:31.831+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:31.830+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:54:32.475+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:54:32.506+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:32.506+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:32.542+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:32.541+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:54:32.571+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.749 seconds
+[2024-03-28T02:55:02.974+0000] {processor.py:153} INFO - Started process (PID=3432) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:55:02.976+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:55:02.977+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:02.977+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:55:03.843+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:55:03.893+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:03.892+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:03.959+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:03.959+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:55:04.016+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 1.046 seconds
+[2024-03-28T02:55:34.534+0000] {processor.py:153} INFO - Started process (PID=3642) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:55:34.535+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:55:34.537+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:34.537+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:55:35.176+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:55:35.208+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:35.207+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:35.240+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:35.240+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:55:35.266+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.740 seconds
+[2024-03-28T02:56:05.859+0000] {processor.py:153} INFO - Started process (PID=3855) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:56:05.860+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:56:05.862+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:05.861+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:56:06.709+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:56:06.748+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:06.747+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:06.784+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:06.783+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:56:06.811+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.958 seconds
+[2024-03-28T02:56:36.910+0000] {processor.py:153} INFO - Started process (PID=4064) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:56:36.911+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py for tasks to queue
+[2024-03-28T02:56:36.914+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:36.914+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:56:37.656+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_ivy_leg_schema']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py
+[2024-03-28T02:56:37.710+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:37.709+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:37.761+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:37.761+0000] {dag.py:3452} INFO - Setting next_dagrun for update_ivy_leg_schema to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:56:37.804+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_clipper_tables.py took 0.900 seconds

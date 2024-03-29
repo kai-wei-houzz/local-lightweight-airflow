@@ -1,0 +1,138 @@
+[2024-03-28T02:45:36.397+0000] {processor.py:153} INFO - Started process (PID=233) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:45:36.402+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:45:36.405+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:36.405+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:45:38.454+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:45:43.514+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:43.400+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:ivy_qb
+[2024-03-28T02:45:43.729+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:43.728+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:ivy_qb
+[2024-03-28T02:45:43.795+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:43.795+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:ivy_qb
+[2024-03-28T02:45:43.800+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:43.797+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:45:43.891+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py:3223 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2024-03-28T02:45:43.902+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:43.898+0000] {dag.py:2726} INFO - Creating ORM DAG for ivy_qb
+[2024-03-28T02:45:43.995+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:43.995+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:45:44.080+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 7.690 seconds
+[2024-03-28T02:46:46.172+0000] {processor.py:153} INFO - Started process (PID=469) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:46:46.174+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:46:46.183+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:46.182+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:46:53.486+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:46:53.574+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:53.573+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:46:53.724+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:53.723+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:46:53.790+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 7.633 seconds
+[2024-03-28T02:47:43.261+0000] {processor.py:153} INFO - Started process (PID=699) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:47:43.266+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:47:43.271+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:43.270+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:47:45.940+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:47:46.055+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:46.054+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:47:46.202+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:46.200+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:47:46.277+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 3.024 seconds
+[2024-03-28T02:48:30.713+0000] {processor.py:153} INFO - Started process (PID=908) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:48:30.716+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:48:30.718+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:30.718+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:48:33.998+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:48:34.061+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:34.061+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:34.101+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:34.101+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:48:34.135+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 3.465 seconds
+[2024-03-28T02:49:04.360+0000] {processor.py:153} INFO - Started process (PID=1118) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:49:04.362+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:49:04.364+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:04.364+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:49:05.133+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:49:05.164+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:05.163+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:05.193+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:05.193+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:49:05.219+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 0.865 seconds
+[2024-03-28T02:49:35.496+0000] {processor.py:153} INFO - Started process (PID=1321) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:49:35.499+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:49:35.501+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:35.501+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:49:36.787+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:49:36.872+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:36.871+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:36.967+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:36.967+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:49:37.017+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.529 seconds
+[2024-03-28T02:50:07.606+0000] {processor.py:153} INFO - Started process (PID=1532) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:50:07.608+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:50:07.611+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:07.610+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:50:08.530+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:50:08.597+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:08.596+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:08.653+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:08.653+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:50:08.691+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.092 seconds
+[2024-03-28T02:50:46.108+0000] {processor.py:153} INFO - Started process (PID=1729) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:50:46.110+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:50:46.113+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:46.113+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:50:47.380+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:50:47.434+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:47.433+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:47.657+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:47.657+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:50:47.717+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.617 seconds
+[2024-03-28T02:51:18.190+0000] {processor.py:153} INFO - Started process (PID=1940) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:51:18.191+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:51:18.194+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:18.193+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:51:19.017+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:51:19.051+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:19.050+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:19.088+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:19.087+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:51:19.130+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 0.948 seconds
+[2024-03-28T02:51:49.509+0000] {processor.py:153} INFO - Started process (PID=2150) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:51:49.514+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:51:49.517+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:49.517+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:51:50.981+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:51:51.025+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:51.024+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:51.077+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:51.077+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:51:51.122+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.622 seconds
+[2024-03-28T02:52:22.485+0000] {processor.py:153} INFO - Started process (PID=2367) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:52:22.487+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:52:22.489+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:22.489+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:52:23.351+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:52:23.400+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:23.398+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:23.458+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:23.458+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:52:23.499+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.022 seconds
+[2024-03-28T02:52:55.006+0000] {processor.py:153} INFO - Started process (PID=2577) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:52:55.008+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:52:55.011+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:55.010+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:52:56.142+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:52:56.176+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:56.175+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:56.218+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:56.217+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:52:56.252+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.261 seconds
+[2024-03-28T02:53:26.489+0000] {processor.py:153} INFO - Started process (PID=2768) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:53:26.492+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:53:26.495+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:26.494+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:53:27.517+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:53:27.555+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:27.554+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:27.591+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:27.591+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:53:27.621+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.144 seconds
+[2024-03-28T02:53:58.291+0000] {processor.py:153} INFO - Started process (PID=2998) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:53:58.292+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:53:58.293+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:58.293+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:53:59.520+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:53:59.581+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:59.579+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:59.623+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:59.623+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:53:59.654+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.368 seconds
+[2024-03-28T02:54:29.955+0000] {processor.py:153} INFO - Started process (PID=3209) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:54:29.957+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:54:29.958+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:29.958+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:54:31.651+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:54:31.683+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:31.682+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:31.716+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:31.716+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:54:31.744+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 1.796 seconds
+[2024-03-28T02:55:02.067+0000] {processor.py:153} INFO - Started process (PID=3420) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:55:02.068+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:55:02.069+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:02.069+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:55:02.804+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:55:02.835+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:02.834+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:02.869+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:02.869+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:55:02.897+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 0.837 seconds
+[2024-03-28T02:55:33.577+0000] {processor.py:153} INFO - Started process (PID=3629) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:55:33.579+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:55:33.581+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:33.581+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:55:34.378+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:55:34.412+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:34.411+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:34.445+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:34.444+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:55:34.473+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 0.902 seconds
+[2024-03-28T02:56:04.913+0000] {processor.py:153} INFO - Started process (PID=3840) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:56:04.914+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:56:04.916+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:04.916+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:56:05.634+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:56:05.666+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:05.665+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:05.701+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:05.701+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:56:05.727+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 0.820 seconds
+[2024-03-28T02:56:36.005+0000] {processor.py:153} INFO - Started process (PID=4052) to work on /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:56:36.007+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py for tasks to queue
+[2024-03-28T02:56:36.008+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:36.008+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:56:36.760+0000] {processor.py:753} INFO - DAG(s) dict_keys(['ivy_qb']) retrieved from /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py
+[2024-03-28T02:56:36.791+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:36.791+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:36.821+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:36.821+0000] {dag.py:3452} INFO - Setting next_dagrun for ivy_qb to 2019-11-11T00:00:00+00:00, run_after=2019-11-12T00:00:00+00:00
+[2024-03-28T02:56:36.845+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_update_qb_users.py took 0.847 seconds

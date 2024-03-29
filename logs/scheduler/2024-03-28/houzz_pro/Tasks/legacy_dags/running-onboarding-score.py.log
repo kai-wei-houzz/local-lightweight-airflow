@@ -1,0 +1,138 @@
+[2024-03-28T02:46:04.240+0000] {processor.py:153} INFO - Started process (PID=301) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:46:04.246+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:46:04.248+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:04.248+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:46:06.170+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:46:06.509+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:06.508+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:running_onboarding_score
+[2024-03-28T02:46:06.550+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:06.550+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:running_onboarding_score
+[2024-03-28T02:46:06.604+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:06.603+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:running_onboarding_score
+[2024-03-28T02:46:06.608+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:06.606+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:46:06.664+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py:3223 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2024-03-28T02:46:06.668+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:06.667+0000] {dag.py:2726} INFO - Creating ORM DAG for running_onboarding_score
+[2024-03-28T02:46:06.705+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:06.704+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:46:06.761+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 2.534 seconds
+[2024-03-28T02:47:00.899+0000] {processor.py:153} INFO - Started process (PID=523) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:47:00.904+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:47:00.907+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:00.906+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:47:04.091+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:47:04.236+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:04.234+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:47:04.320+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:04.319+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:47:04.374+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 3.509 seconds
+[2024-03-28T02:47:54.755+0000] {processor.py:153} INFO - Started process (PID=751) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:47:54.771+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:47:54.773+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:54.773+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:47:56.924+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:47:57.087+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:57.086+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:47:57.255+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:57.243+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:47:57.323+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 2.581 seconds
+[2024-03-28T02:48:39.897+0000] {processor.py:153} INFO - Started process (PID=962) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:48:39.900+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:48:39.903+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:39.903+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:48:41.403+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:48:41.510+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:41.509+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:41.588+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:41.587+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:48:41.636+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.747 seconds
+[2024-03-28T02:49:19.045+0000] {processor.py:153} INFO - Started process (PID=1196) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:49:19.049+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:49:19.053+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:19.052+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:49:20.503+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:49:20.567+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:20.565+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:20.660+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:20.659+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:49:20.716+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.680 seconds
+[2024-03-28T02:49:51.573+0000] {processor.py:153} INFO - Started process (PID=1400) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:49:51.575+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:49:51.578+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:51.577+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:49:52.763+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:49:52.832+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:52.831+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:52.905+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:52.905+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:49:52.942+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.386 seconds
+[2024-03-28T02:50:25.237+0000] {processor.py:153} INFO - Started process (PID=1613) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:50:25.238+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:50:25.240+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:25.239+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:50:27.074+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:50:27.158+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:27.157+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:27.230+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:27.229+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:50:27.260+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 2.030 seconds
+[2024-03-28T02:50:57.865+0000] {processor.py:153} INFO - Started process (PID=1824) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:50:57.871+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:50:57.873+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:57.873+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:50:59.006+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:50:59.050+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:59.048+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:59.147+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:59.147+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:50:59.202+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.348 seconds
+[2024-03-28T02:51:29.854+0000] {processor.py:153} INFO - Started process (PID=2024) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:51:29.856+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:51:29.858+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:29.858+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:51:30.881+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:51:30.941+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:30.940+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:31.000+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:31.000+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:51:31.040+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.194 seconds
+[2024-03-28T02:52:01.707+0000] {processor.py:153} INFO - Started process (PID=2233) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:52:01.709+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:52:01.711+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:01.711+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:52:03.022+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:52:03.075+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:03.073+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:03.137+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:03.136+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:52:03.184+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.487 seconds
+[2024-03-28T02:52:33.275+0000] {processor.py:153} INFO - Started process (PID=2437) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:52:33.277+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:52:33.280+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:33.279+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:52:33.985+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:52:34.017+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:34.016+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:34.048+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:34.048+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:52:34.074+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 0.804 seconds
+[2024-03-28T02:53:04.320+0000] {processor.py:153} INFO - Started process (PID=2647) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:53:04.322+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:53:04.324+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:04.324+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:53:05.177+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:53:05.215+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:05.214+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:05.249+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:05.249+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:53:05.273+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 0.965 seconds
+[2024-03-28T02:53:35.739+0000] {processor.py:153} INFO - Started process (PID=2856) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:53:35.740+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:53:35.741+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:35.741+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:53:36.718+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:53:36.772+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:36.771+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:36.824+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:36.824+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:53:36.860+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.128 seconds
+[2024-03-28T02:54:07.471+0000] {processor.py:153} INFO - Started process (PID=3067) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:54:07.472+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:54:07.473+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:07.473+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:54:08.394+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:54:08.475+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:08.474+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:08.540+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:08.540+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:54:08.578+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 1.112 seconds
+[2024-03-28T02:54:38.736+0000] {processor.py:153} INFO - Started process (PID=3276) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:54:38.737+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:54:38.738+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:38.738+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:54:39.459+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:54:39.490+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:39.489+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:39.523+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:39.522+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:54:39.546+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 0.818 seconds
+[2024-03-28T02:55:09.636+0000] {processor.py:153} INFO - Started process (PID=3484) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:55:09.638+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:55:09.639+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:09.639+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:55:10.437+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:55:10.470+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:10.470+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:10.504+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:10.503+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:55:10.531+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 0.901 seconds
+[2024-03-28T02:55:41.011+0000] {processor.py:153} INFO - Started process (PID=3701) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:55:41.015+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:55:41.017+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:41.017+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:55:41.756+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:55:41.790+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:41.789+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:41.828+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:41.828+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:55:41.891+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 0.885 seconds
+[2024-03-28T02:56:12.362+0000] {processor.py:153} INFO - Started process (PID=3923) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:56:12.382+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:56:12.388+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:12.388+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:56:13.169+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:56:13.209+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:13.208+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:13.251+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:13.251+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:56:13.285+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 0.943 seconds
+[2024-03-28T02:56:43.625+0000] {processor.py:153} INFO - Started process (PID=4123) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:56:43.627+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py for tasks to queue
+[2024-03-28T02:56:43.628+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:43.628+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:56:44.315+0000] {processor.py:753} INFO - DAG(s) dict_keys(['running_onboarding_score']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py
+[2024-03-28T02:56:44.349+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:44.349+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:44.384+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:44.384+0000] {dag.py:3452} INFO - Setting next_dagrun for running_onboarding_score to 2024-03-27T00:00:00+00:00, run_after=2024-03-28T00:00:00+00:00
+[2024-03-28T02:56:44.429+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/running-onboarding-score.py took 0.810 seconds

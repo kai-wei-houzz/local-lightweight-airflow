@@ -1,0 +1,131 @@
+[2024-03-28T02:46:31.417+0000] {processor.py:153} INFO - Started process (PID=396) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:46:31.419+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:46:31.421+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.421+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:46:31.480+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:46:31.833+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.833+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:menglei_test
+[2024-03-28T02:46:31.865+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.865+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:menglei_test
+[2024-03-28T02:46:31.890+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.890+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:menglei_test
+[2024-03-28T02:46:31.891+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.891+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:46:31.950+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py:3223 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2024-03-28T02:46:31.953+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.953+0000] {dag.py:2726} INFO - Creating ORM DAG for menglei_test
+[2024-03-28T02:46:31.989+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:31.989+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:46:32.046+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.647 seconds
+[2024-03-28T02:47:36.479+0000] {processor.py:153} INFO - Started process (PID=648) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:47:36.483+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:47:36.517+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:36.517+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:47:36.699+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:47:36.904+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:36.904+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:47:37.152+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:37.152+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:47:37.232+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.764 seconds
+[2024-03-28T02:48:26.913+0000] {processor.py:153} INFO - Started process (PID=876) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:48:26.917+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:48:26.931+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:26.931+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:48:27.058+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:48:27.177+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:27.177+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:27.318+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:27.317+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:48:27.389+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.491 seconds
+[2024-03-28T02:48:58.227+0000] {processor.py:153} INFO - Started process (PID=1076) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:48:58.230+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:48:58.232+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:58.232+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:48:58.266+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:48:58.324+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:58.324+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:58.365+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:58.364+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:48:58.408+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.186 seconds
+[2024-03-28T02:49:30.976+0000] {processor.py:153} INFO - Started process (PID=1285) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:49:30.979+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:49:30.982+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:30.981+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:49:31.048+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:49:31.111+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:31.111+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:31.172+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:31.172+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:49:31.197+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.243 seconds
+[2024-03-28T02:50:02.563+0000] {processor.py:153} INFO - Started process (PID=1496) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:50:02.565+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:50:02.568+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:02.568+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:50:02.613+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:50:02.680+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:02.679+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:02.735+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:02.734+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:50:02.774+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.221 seconds
+[2024-03-28T02:50:41.089+0000] {processor.py:153} INFO - Started process (PID=1707) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:50:41.091+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:50:41.095+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:41.094+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:50:41.203+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:50:41.352+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:41.352+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:41.526+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:41.526+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:50:44.476+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 3.399 seconds
+[2024-03-28T02:51:14.838+0000] {processor.py:153} INFO - Started process (PID=1917) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:51:14.841+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:51:14.846+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:14.845+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:51:14.891+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:51:14.964+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:14.964+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:15.382+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:15.382+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:51:15.438+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.603 seconds
+[2024-03-28T02:51:45.794+0000] {processor.py:153} INFO - Started process (PID=2114) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:51:45.798+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:51:45.801+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:45.800+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:51:45.838+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:51:46.125+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:46.125+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:46.161+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:46.161+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:51:46.198+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.411 seconds
+[2024-03-28T02:52:21.193+0000] {processor.py:153} INFO - Started process (PID=2329) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:52:21.195+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:52:21.199+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:21.199+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:52:21.235+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:52:21.292+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:21.292+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:21.334+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:21.334+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:52:21.372+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.186 seconds
+[2024-03-28T02:52:53.585+0000] {processor.py:153} INFO - Started process (PID=2556) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:52:53.587+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:52:53.588+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:53.588+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:52:53.620+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:52:53.668+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:53.668+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:53.722+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:53.722+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:52:53.765+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.186 seconds
+[2024-03-28T02:53:24.570+0000] {processor.py:153} INFO - Started process (PID=2748) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:53:24.572+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:53:24.573+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:24.573+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:53:24.607+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:53:24.664+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:24.664+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:24.719+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:24.719+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:53:24.919+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.356 seconds
+[2024-03-28T02:53:56.073+0000] {processor.py:153} INFO - Started process (PID=2966) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:53:56.074+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:53:56.075+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:56.075+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:53:56.105+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:53:56.154+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:56.153+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:56.389+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:56.388+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:53:56.431+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.363 seconds
+[2024-03-28T02:54:27.466+0000] {processor.py:153} INFO - Started process (PID=3182) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:54:27.468+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:54:27.469+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:27.469+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:54:27.495+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:54:27.705+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:27.704+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:27.740+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:27.740+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:54:27.769+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.311 seconds
+[2024-03-28T02:54:58.987+0000] {processor.py:153} INFO - Started process (PID=3399) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:54:58.989+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:54:58.990+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:58.990+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:54:59.020+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:54:59.065+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:59.065+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:59.101+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:59.101+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:54:59.129+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.148 seconds
+[2024-03-28T02:55:30.571+0000] {processor.py:153} INFO - Started process (PID=3609) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:55:30.572+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:55:30.573+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:30.573+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:55:30.607+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:55:30.658+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:30.658+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:30.694+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:30.693+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:55:30.726+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.161 seconds
+[2024-03-28T02:56:02.403+0000] {processor.py:153} INFO - Started process (PID=3825) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:56:02.425+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:56:02.427+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:02.426+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:56:02.459+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:56:02.509+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:02.509+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:02.549+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:02.549+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:56:02.740+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.347 seconds
+[2024-03-28T02:56:33.486+0000] {processor.py:153} INFO - Started process (PID=4036) to work on /opt/airflow/dags/example.py
+[2024-03-28T02:56:33.488+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/example.py for tasks to queue
+[2024-03-28T02:56:33.490+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:33.489+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/example.py
+[2024-03-28T02:56:33.518+0000] {processor.py:753} INFO - DAG(s) dict_keys(['menglei_test']) retrieved from /opt/airflow/dags/example.py
+[2024-03-28T02:56:33.564+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:33.563+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:33.776+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:33.775+0000] {dag.py:3452} INFO - Setting next_dagrun for menglei_test to 2021-01-01T00:00:00+00:00, run_after=2021-01-02T00:00:00+00:00
+[2024-03-28T02:56:33.808+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/example.py took 0.328 seconds

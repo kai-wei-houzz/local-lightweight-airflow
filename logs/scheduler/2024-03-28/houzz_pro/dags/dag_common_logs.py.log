@@ -1,0 +1,304 @@
+[2024-03-28T02:45:46.525+0000] {processor.py:153} INFO - Started process (PID=265) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:45:46.543+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:45:46.546+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:46.545+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:46:01.084+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:01.053+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:46:01.087+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:46:01.123+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 14.587 seconds
+[2024-03-28T02:46:56.525+0000] {processor.py:153} INFO - Started process (PID=505) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:46:56.530+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:46:56.532+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:56.532+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:46:58.685+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:58.668+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:46:58.689+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:46:58.719+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 2.207 seconds
+[2024-03-28T02:47:50.108+0000] {processor.py:153} INFO - Started process (PID=723) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:47:50.110+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:47:50.117+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:50.116+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:47:54.393+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:54.386+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:47:54.407+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:47:54.467+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 4.361 seconds
+[2024-03-28T02:48:36.637+0000] {processor.py:153} INFO - Started process (PID=943) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:48:36.640+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:48:36.642+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:36.641+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:48:38.743+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:38.740+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:48:38.746+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:48:38.770+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 2.147 seconds
+[2024-03-28T02:49:09.222+0000] {processor.py:153} INFO - Started process (PID=1152) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:49:09.229+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:49:09.233+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:09.233+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:49:13.961+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:13.816+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:49:13.982+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:49:14.031+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 4.819 seconds
+[2024-03-28T02:49:44.722+0000] {processor.py:153} INFO - Started process (PID=1363) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:49:44.730+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:49:44.734+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:44.733+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:49:46.823+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:46.818+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:49:46.825+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:49:46.849+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 2.157 seconds
+[2024-03-28T02:50:17.633+0000] {processor.py:153} INFO - Started process (PID=1580) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:50:17.634+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:50:17.638+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:17.637+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:50:19.932+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:19.926+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:50:19.933+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:50:19.948+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 2.322 seconds
+[2024-03-28T02:50:50.517+0000] {processor.py:153} INFO - Started process (PID=1780) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:50:50.519+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:50:50.521+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:50.521+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:50:53.602+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:53.591+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:50:53.604+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:50:53.626+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 3.120 seconds
+[2024-03-28T02:51:24.204+0000] {processor.py:153} INFO - Started process (PID=1984) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:51:24.206+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:51:24.208+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:24.208+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:51:25.481+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:25.475+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:51:25.482+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:51:25.501+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 1.306 seconds
+[2024-03-28T02:51:55.924+0000] {processor.py:153} INFO - Started process (PID=2194) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:51:55.926+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:51:55.928+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:55.927+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:51:57.202+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:57.193+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:51:57.203+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:51:57.225+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 1.314 seconds
+[2024-03-28T02:52:28.605+0000] {processor.py:153} INFO - Started process (PID=2407) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:52:28.613+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:52:28.619+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:28.618+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:52:29.576+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:29.572+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:52:29.577+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:52:29.591+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 1.016 seconds
+[2024-03-28T02:53:00.906+0000] {processor.py:153} INFO - Started process (PID=2618) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:53:00.909+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:53:00.914+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:00.911+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:53:01.934+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:01.931+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:53:01.935+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:53:01.952+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 1.054 seconds
+[2024-03-28T02:53:32.127+0000] {processor.py:153} INFO - Started process (PID=2826) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:53:32.130+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:53:32.133+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:32.132+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:53:32.933+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:32.927+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:53:32.934+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:53:32.947+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 0.826 seconds
+[2024-03-28T02:54:04.493+0000] {processor.py:153} INFO - Started process (PID=3039) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:54:04.494+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:54:04.498+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:04.497+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:54:05.410+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:05.407+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:54:05.414+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:54:05.425+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 0.939 seconds
+[2024-03-28T02:54:35.511+0000] {processor.py:153} INFO - Started process (PID=3250) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:54:35.513+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:54:35.516+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:35.515+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:54:36.651+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:36.643+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:54:36.653+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:54:36.672+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 1.167 seconds
+[2024-03-28T02:55:07.425+0000] {processor.py:153} INFO - Started process (PID=3461) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:55:07.426+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:55:07.429+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:07.429+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:55:08.751+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:08.745+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:55:08.753+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:55:08.772+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 1.352 seconds
+[2024-03-28T02:55:39.483+0000] {processor.py:153} INFO - Started process (PID=3683) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:55:39.484+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:55:39.486+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:39.486+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:55:40.274+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:40.271+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:55:40.275+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:55:40.289+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 0.813 seconds
+[2024-03-28T02:56:10.757+0000] {processor.py:153} INFO - Started process (PID=3894) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:56:10.758+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:56:10.760+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:10.759+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:56:11.573+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:11.570+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:56:11.574+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:56:11.587+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 0.836 seconds
+[2024-03-28T02:56:42.027+0000] {processor.py:153} INFO - Started process (PID=4105) to work on /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:56:42.029+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py for tasks to queue
+[2024-03-28T02:56:42.032+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:42.032+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:56:42.876+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:42.873+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/dag_common_logs.py", line 30, in <module>
+    KEY = Variable.get("aws_access_key_id_val")
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/variable.py", line 141, in get
+    raise KeyError(f"Variable {key} does not exist")
+KeyError: 'Variable aws_access_key_id_val does not exist'
+[2024-03-28T02:56:42.877+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py
+[2024-03-28T02:56:42.889+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/dag_common_logs.py took 0.867 seconds

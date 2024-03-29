@@ -1,0 +1,95 @@
+[2024-03-28T02:45:34.906+0000] {processor.py:153} INFO - Started process (PID=221) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:45:34.910+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:45:34.916+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:34.915+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:45:36.223+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:45:36.262+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 1.375 seconds
+[2024-03-28T02:46:40.961+0000] {processor.py:153} INFO - Started process (PID=450) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:46:40.966+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:46:40.970+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:40.970+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:46:45.536+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:46:45.590+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 4.695 seconds
+[2024-03-28T02:47:41.044+0000] {processor.py:153} INFO - Started process (PID=680) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:47:41.053+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:47:41.057+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:41.056+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:47:43.132+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:47:43.165+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 2.133 seconds
+[2024-03-28T02:48:28.444+0000] {processor.py:153} INFO - Started process (PID=897) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:48:28.447+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:48:28.454+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:28.454+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:48:30.541+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:48:30.610+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 2.194 seconds
+[2024-03-28T02:49:00.865+0000] {processor.py:153} INFO - Started process (PID=1096) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:49:00.872+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:49:00.873+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:00.872+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:49:01.989+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:49:02.014+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 1.143 seconds
+[2024-03-28T02:49:32.357+0000] {processor.py:153} INFO - Started process (PID=1307) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:49:32.359+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:49:32.363+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:32.362+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:49:33.870+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:49:33.917+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 1.567 seconds
+[2024-03-28T02:50:04.299+0000] {processor.py:153} INFO - Started process (PID=1518) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:50:04.302+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:50:04.304+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:04.304+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:50:05.134+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:50:05.156+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.866 seconds
+[2024-03-28T02:50:44.562+0000] {processor.py:153} INFO - Started process (PID=1719) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:50:44.568+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:50:44.570+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:44.570+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:50:46.002+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:50:46.048+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 1.496 seconds
+[2024-03-28T02:51:16.121+0000] {processor.py:153} INFO - Started process (PID=1930) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:51:16.123+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:51:16.124+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:16.124+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:51:17.425+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:51:17.450+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 1.338 seconds
+[2024-03-28T02:51:47.710+0000] {processor.py:153} INFO - Started process (PID=2141) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:51:47.716+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:51:47.718+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:47.717+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:51:49.402+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:51:49.437+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 1.735 seconds
+[2024-03-28T02:52:21.533+0000] {processor.py:153} INFO - Started process (PID=2343) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:52:21.536+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:52:21.537+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:21.537+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:52:22.403+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:52:22.431+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.907 seconds
+[2024-03-28T02:52:53.809+0000] {processor.py:153} INFO - Started process (PID=2568) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:52:53.813+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:52:53.817+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:53.816+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:52:54.891+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:52:54.927+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 1.126 seconds
+[2024-03-28T02:53:25.764+0000] {processor.py:153} INFO - Started process (PID=2760) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:53:25.766+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:53:25.767+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:25.767+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:53:26.410+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:53:26.430+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.674 seconds
+[2024-03-28T02:53:56.493+0000] {processor.py:153} INFO - Started process (PID=2978) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:53:56.494+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:53:56.497+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:56.496+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:53:57.175+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:53:57.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.744 seconds
+[2024-03-28T02:54:27.435+0000] {processor.py:153} INFO - Started process (PID=3179) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:54:27.437+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:54:27.441+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:27.440+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:54:28.140+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:54:28.161+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.736 seconds
+[2024-03-28T02:54:59.276+0000] {processor.py:153} INFO - Started process (PID=3409) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:54:59.278+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:54:59.281+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:59.281+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:54:59.980+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:55:00.002+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.731 seconds
+[2024-03-28T02:55:30.831+0000] {processor.py:153} INFO - Started process (PID=3619) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:55:30.832+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:55:30.834+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:30.834+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:55:31.465+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:55:31.481+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.656 seconds
+[2024-03-28T02:56:01.668+0000] {processor.py:153} INFO - Started process (PID=3813) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:56:01.670+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:56:01.671+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:01.671+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:56:02.334+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:56:02.353+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.694 seconds
+[2024-03-28T02:56:32.489+0000] {processor.py:153} INFO - Started process (PID=4019) to work on /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:56:32.491+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/db_connect.py for tasks to queue
+[2024-03-28T02:56:32.493+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:32.493+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:56:33.172+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/db_connect.py
+[2024-03-28T02:56:33.201+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/db_connect.py took 0.718 seconds

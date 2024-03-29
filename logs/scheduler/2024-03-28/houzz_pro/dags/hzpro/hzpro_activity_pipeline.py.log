@@ -1,0 +1,95 @@
+[2024-03-28T02:45:34.853+0000] {processor.py:153} INFO - Started process (PID=218) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:45:34.855+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:45:34.859+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:34.858+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:45:36.296+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:45:36.328+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.484 seconds
+[2024-03-28T02:46:40.204+0000] {processor.py:153} INFO - Started process (PID=445) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:46:40.248+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:46:40.258+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:40.257+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:46:45.506+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:46:45.579+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 5.455 seconds
+[2024-03-28T02:47:38.610+0000] {processor.py:153} INFO - Started process (PID=673) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:47:38.623+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:47:38.627+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:38.627+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:47:40.840+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:47:40.924+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 2.324 seconds
+[2024-03-28T02:48:16.445+0000] {processor.py:153} INFO - Started process (PID=823) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:48:16.447+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:48:16.454+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:16.453+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:48:19.099+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:48:19.148+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 2.719 seconds
+[2024-03-28T02:48:52.142+0000] {processor.py:153} INFO - Started process (PID=1044) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:48:52.144+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:48:52.151+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:52.151+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:48:53.460+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:48:53.518+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.382 seconds
+[2024-03-28T02:49:26.910+0000] {processor.py:153} INFO - Started process (PID=1254) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:49:26.913+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:49:26.916+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:26.916+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:49:28.094+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:49:28.139+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.237 seconds
+[2024-03-28T02:49:58.800+0000] {processor.py:153} INFO - Started process (PID=1454) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:49:58.803+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:49:58.805+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:58.805+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:49:59.837+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:49:59.875+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.084 seconds
+[2024-03-28T02:50:36.883+0000] {processor.py:153} INFO - Started process (PID=1666) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:50:36.888+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:50:36.892+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:36.891+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:50:38.288+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:50:38.346+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.474 seconds
+[2024-03-28T02:51:09.078+0000] {processor.py:153} INFO - Started process (PID=1877) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:51:09.088+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:51:09.089+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:09.089+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:51:11.927+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:51:12.003+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 2.966 seconds
+[2024-03-28T02:51:42.799+0000] {processor.py:153} INFO - Started process (PID=2083) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:51:42.802+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:51:42.803+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:42.803+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:51:44.000+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:51:44.033+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.242 seconds
+[2024-03-28T02:52:17.159+0000] {processor.py:153} INFO - Started process (PID=2286) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:52:17.163+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:52:17.166+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:17.166+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:52:18.885+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:52:18.924+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.780 seconds
+[2024-03-28T02:52:49.539+0000] {processor.py:153} INFO - Started process (PID=2506) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:52:49.541+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:52:49.543+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:49.542+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:52:50.566+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:52:50.604+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.070 seconds
+[2024-03-28T02:53:20.731+0000] {processor.py:153} INFO - Started process (PID=2709) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:53:20.733+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:53:20.734+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:20.734+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:53:21.418+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:53:21.443+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 0.719 seconds
+[2024-03-28T02:53:51.560+0000] {processor.py:153} INFO - Started process (PID=2918) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:53:51.564+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:53:51.566+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:51.566+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:53:52.474+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:53:52.503+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 0.949 seconds
+[2024-03-28T02:54:22.582+0000] {processor.py:153} INFO - Started process (PID=3129) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:54:22.584+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:54:22.585+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:22.585+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:54:23.185+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:54:23.202+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 0.627 seconds
+[2024-03-28T02:54:53.293+0000] {processor.py:153} INFO - Started process (PID=3333) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:54:53.294+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:54:53.296+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:53.295+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:54:54.004+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:54:54.022+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 0.734 seconds
+[2024-03-28T02:55:25.688+0000] {processor.py:153} INFO - Started process (PID=3555) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:55:25.689+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:55:25.690+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:25.690+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:55:26.741+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:55:26.760+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.077 seconds
+[2024-03-28T02:55:57.088+0000] {processor.py:153} INFO - Started process (PID=3765) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:55:57.090+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:55:57.093+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:57.092+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:55:58.168+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:55:58.204+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.126 seconds
+[2024-03-28T02:56:28.319+0000] {processor.py:153} INFO - Started process (PID=3974) to work on /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:56:28.324+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py for tasks to queue
+[2024-03-28T02:56:28.326+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:28.325+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:56:30.187+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py
+[2024-03-28T02:56:30.217+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/hzpro/hzpro_activity_pipeline.py took 1.910 seconds

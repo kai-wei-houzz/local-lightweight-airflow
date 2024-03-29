@@ -1,0 +1,280 @@
+[2024-03-28T02:45:26.746+0000] {processor.py:153} INFO - Started process (PID=192) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:45:26.751+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:45:26.757+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:26.756+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:45:29.951+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:45:29.945+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:45:29.960+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:45:29.996+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 3.267 seconds
+[2024-03-28T02:46:34.215+0000] {processor.py:153} INFO - Started process (PID=421) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:46:34.224+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:46:34.239+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:34.238+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:46:35.981+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:35.965+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:46:35.984+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:46:36.116+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 1.932 seconds
+[2024-03-28T02:47:11.348+0000] {processor.py:153} INFO - Started process (PID=570) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:47:11.369+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:47:11.385+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:11.384+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:47:20.917+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:20.883+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:47:20.922+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:47:21.187+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 9.871 seconds
+[2024-03-28T02:48:00.948+0000] {processor.py:153} INFO - Started process (PID=775) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:48:00.952+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:48:00.957+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:00.956+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:48:04.543+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:04.527+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:48:04.546+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:48:04.649+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 3.693 seconds
+[2024-03-28T02:48:40.622+0000] {processor.py:153} INFO - Started process (PID=973) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:48:40.625+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:48:40.626+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:40.626+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:48:42.399+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:42.391+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:48:42.404+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:48:42.474+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 1.860 seconds
+[2024-03-28T02:49:14.652+0000] {processor.py:153} INFO - Started process (PID=1170) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:49:14.656+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:49:14.664+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:14.664+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:49:16.739+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:16.733+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:49:16.743+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:49:16.789+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 2.149 seconds
+[2024-03-28T02:49:47.193+0000] {processor.py:153} INFO - Started process (PID=1378) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:49:47.199+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:49:47.201+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:47.201+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:49:48.268+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:48.260+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:49:48.270+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:49:48.352+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 1.168 seconds
+[2024-03-28T02:50:19.889+0000] {processor.py:153} INFO - Started process (PID=1587) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:50:19.890+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:50:19.892+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:19.892+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:50:20.774+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:20.769+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:50:20.775+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:50:20.850+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.967 seconds
+[2024-03-28T02:50:53.633+0000] {processor.py:153} INFO - Started process (PID=1787) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:50:53.636+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:50:53.638+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:53.637+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:50:54.919+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:54.912+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:50:54.921+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:50:54.956+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 1.335 seconds
+[2024-03-28T02:51:25.552+0000] {processor.py:153} INFO - Started process (PID=1993) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:51:25.554+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:51:25.556+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:25.556+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:51:27.831+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:27.825+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:51:27.833+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:51:27.875+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 2.334 seconds
+[2024-03-28T02:51:58.297+0000] {processor.py:153} INFO - Started process (PID=2204) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:51:58.299+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:51:58.302+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:58.301+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:51:59.438+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:59.435+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:51:59.441+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:51:59.481+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 1.193 seconds
+[2024-03-28T02:52:29.589+0000] {processor.py:153} INFO - Started process (PID=2413) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:52:29.592+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:52:29.593+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:29.593+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:52:30.325+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:30.322+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:52:30.326+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:52:30.353+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.769 seconds
+[2024-03-28T02:53:01.920+0000] {processor.py:153} INFO - Started process (PID=2624) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:53:01.922+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:53:01.923+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:01.923+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:53:02.869+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:02.860+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:53:02.870+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:53:03.011+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 1.097 seconds
+[2024-03-28T02:53:33.992+0000] {processor.py:153} INFO - Started process (PID=2836) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:53:33.994+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:53:33.997+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:33.996+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:53:34.639+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:34.637+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:53:34.641+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:53:34.666+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.678 seconds
+[2024-03-28T02:54:05.486+0000] {processor.py:153} INFO - Started process (PID=3047) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:54:05.487+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:54:05.489+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:05.488+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:54:06.443+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:06.439+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:54:06.450+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:54:06.493+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 1.018 seconds
+[2024-03-28T02:54:36.740+0000] {processor.py:153} INFO - Started process (PID=3258) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:54:36.741+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:54:36.743+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:36.742+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:54:37.608+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:37.606+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:54:37.609+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:54:37.641+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.909 seconds
+[2024-03-28T02:55:08.451+0000] {processor.py:153} INFO - Started process (PID=3467) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:55:08.453+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:55:08.456+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:08.455+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:55:09.376+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:09.373+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:55:09.377+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:55:09.405+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.963 seconds
+[2024-03-28T02:55:39.478+0000] {processor.py:153} INFO - Started process (PID=3680) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:55:39.480+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:55:39.483+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:39.482+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:55:40.178+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:40.175+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:55:40.179+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:55:40.210+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.736 seconds
+[2024-03-28T02:56:10.752+0000] {processor.py:153} INFO - Started process (PID=3891) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:56:10.753+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:56:10.755+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:10.755+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:56:11.477+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:11.475+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:56:11.481+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:56:11.509+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.764 seconds
+[2024-03-28T02:56:42.023+0000] {processor.py:153} INFO - Started process (PID=4102) to work on /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:56:42.025+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py for tasks to queue
+[2024-03-28T02:56:42.026+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:42.026+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:56:42.778+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:42.775+0000] {dagbag.py:341} ERROR - Failed to import: /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 337, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py", line 14, in <module>
+    from sklearn.utils.extmath import cartesian
+ModuleNotFoundError: No module named 'sklearn'
+[2024-03-28T02:56:42.779+0000] {processor.py:755} WARNING - No viable dags retrieved from /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py
+[2024-03-28T02:56:42.804+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/dags/pro_schema/test_hive_write.py took 0.787 seconds

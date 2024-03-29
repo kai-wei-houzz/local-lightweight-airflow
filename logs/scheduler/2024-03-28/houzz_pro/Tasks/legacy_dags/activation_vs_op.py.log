@@ -1,0 +1,131 @@
+[2024-03-28T02:46:30.304+0000] {processor.py:153} INFO - Started process (PID=390) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:46:30.307+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:46:30.310+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:30.309+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:46:32.223+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:46:32.565+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:32.565+0000] {manager.py:504} INFO - Created Permission View: can delete on DAG:update_activation_vs_op_table
+[2024-03-28T02:46:32.598+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:32.598+0000] {manager.py:504} INFO - Created Permission View: can read on DAG:update_activation_vs_op_table
+[2024-03-28T02:46:32.629+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:32.624+0000] {manager.py:504} INFO - Created Permission View: can edit on DAG:update_activation_vs_op_table
+[2024-03-28T02:46:32.636+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:32.634+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:46:32.750+0000] {logging_mixin.py:137} WARNING - /home/airflow/.local/lib/python3.10/site-packages/airflow/models/dag.py:3223 DeprecationWarning: The dag_concurrency option in [core] has been renamed to max_active_tasks_per_dag - the old setting has been used, but please update your config.
+[2024-03-28T02:46:32.755+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:32.752+0000] {dag.py:2726} INFO - Creating ORM DAG for update_activation_vs_op_table
+[2024-03-28T02:46:32.937+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:46:32.936+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:46:33.100+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 2.847 seconds
+[2024-03-28T02:47:33.574+0000] {processor.py:153} INFO - Started process (PID=631) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:47:33.577+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:47:33.588+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:33.587+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:47:37.507+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:47:37.601+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:37.600+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:47:37.853+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:47:37.853+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:47:37.984+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 4.429 seconds
+[2024-03-28T02:48:26.889+0000] {processor.py:153} INFO - Started process (PID=873) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:48:26.894+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:48:26.898+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:26.898+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:48:29.574+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:48:29.716+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:29.715+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:48:29.831+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:48:29.831+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:48:30.012+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 3.153 seconds
+[2024-03-28T02:49:00.871+0000] {processor.py:153} INFO - Started process (PID=1099) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:49:00.873+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:49:00.874+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:00.874+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:49:02.192+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:49:02.227+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:02.226+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:02.266+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:02.265+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:49:02.298+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.419 seconds
+[2024-03-28T02:49:32.365+0000] {processor.py:153} INFO - Started process (PID=1310) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:49:32.367+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:49:32.368+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:32.368+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:49:34.173+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:49:34.247+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:34.244+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:49:34.302+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:49:34.301+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:49:34.402+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 2.045 seconds
+[2024-03-28T02:50:04.549+0000] {processor.py:153} INFO - Started process (PID=1521) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:50:04.551+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:50:04.554+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:04.554+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:50:05.572+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:50:05.605+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:05.604+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:05.643+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:05.643+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:50:05.674+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.135 seconds
+[2024-03-28T02:50:48.544+0000] {processor.py:153} INFO - Started process (PID=1747) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:50:48.546+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:50:48.552+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:48.552+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:50:50.068+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:50:50.112+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:50.110+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:50:50.173+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:50:50.172+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:50:50.231+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.693 seconds
+[2024-03-28T02:51:20.972+0000] {processor.py:153} INFO - Started process (PID=1968) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:51:20.975+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:51:20.980+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:20.979+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:51:22.667+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:51:22.942+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:22.941+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:23.059+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:23.059+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:51:23.119+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 2.153 seconds
+[2024-03-28T02:51:54.138+0000] {processor.py:153} INFO - Started process (PID=2186) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:51:54.142+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:51:54.149+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:54.149+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:51:55.709+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:51:55.767+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:55.766+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:51:55.811+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:51:55.811+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:51:55.849+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.724 seconds
+[2024-03-28T02:52:26.322+0000] {processor.py:153} INFO - Started process (PID=2397) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:52:26.331+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:52:26.341+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:26.341+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:52:28.330+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:52:28.390+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:28.389+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:52:28.458+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:28.458+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:52:28.509+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 2.207 seconds
+[2024-03-28T02:52:58.767+0000] {processor.py:153} INFO - Started process (PID=2608) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:52:58.770+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:52:58.773+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:52:58.773+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:53:00.683+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:53:00.723+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:00.722+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:00.773+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:00.773+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:53:00.840+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 2.084 seconds
+[2024-03-28T02:53:31.169+0000] {processor.py:153} INFO - Started process (PID=2818) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:53:31.170+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:53:31.172+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:31.172+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:53:31.984+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:53:32.018+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:32.017+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:53:32.051+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:53:32.051+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:53:32.076+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 0.912 seconds
+[2024-03-28T02:54:02.821+0000] {processor.py:153} INFO - Started process (PID=3029) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:54:02.823+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:54:02.826+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:02.826+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:54:04.306+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:54:04.343+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:04.343+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:04.391+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:04.391+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:54:04.433+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.666 seconds
+[2024-03-28T02:54:34.709+0000] {processor.py:153} INFO - Started process (PID=3243) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:54:34.710+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:54:34.711+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:34.711+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:54:35.551+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:54:35.586+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:35.585+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:54:35.789+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:54:35.789+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:54:35.852+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.148 seconds
+[2024-03-28T02:55:06.230+0000] {processor.py:153} INFO - Started process (PID=3454) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:55:06.232+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:55:06.234+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:06.234+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:55:07.478+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:55:07.511+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:07.510+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:07.545+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:07.545+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:55:07.574+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.350 seconds
+[2024-03-28T02:55:37.683+0000] {processor.py:153} INFO - Started process (PID=3664) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:55:37.684+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:55:37.686+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:37.686+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:55:38.498+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:55:38.524+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:38.524+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:55:38.556+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:55:38.556+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:55:38.578+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 0.902 seconds
+[2024-03-28T02:56:08.941+0000] {processor.py:153} INFO - Started process (PID=3875) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:56:08.943+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:56:08.944+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:08.944+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:56:09.769+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:56:09.800+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:09.799+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:09.832+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:09.832+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:56:09.859+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 0.922 seconds
+[2024-03-28T02:56:40.002+0000] {processor.py:153} INFO - Started process (PID=4086) to work on /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:56:40.004+0000] {processor.py:743} INFO - Processing file /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py for tasks to queue
+[2024-03-28T02:56:40.005+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:40.005+0000] {dagbag.py:532} INFO - Filling up the DagBag from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:56:41.046+0000] {processor.py:753} INFO - DAG(s) dict_keys(['update_activation_vs_op_table']) retrieved from /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py
+[2024-03-28T02:56:41.076+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:41.075+0000] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-03-28T02:56:41.106+0000] {logging_mixin.py:137} INFO - [2024-03-28T02:56:41.105+0000] {dag.py:3452} INFO - Setting next_dagrun for update_activation_vs_op_table to 2024-03-28T01:00:00+00:00, run_after=2024-03-28T02:00:00+00:00
+[2024-03-28T02:56:41.128+0000] {processor.py:175} INFO - Processing /opt/airflow/dags/houzz_pro/Tasks/legacy_dags/activation_vs_op.py took 1.133 seconds
